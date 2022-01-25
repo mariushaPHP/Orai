@@ -1,0 +1,23 @@
+
+.prognoze{
+  margin-top: 20px;
+  width: 12%;
+  .diena {
+    text-align: center;
+    background: #d3efef;
+    width: 100%;
+    box-shadow: 2px 2px 15px gray;
+  }
+  .temp, .icona{
+    text-align: center;
+    color: white;
+    background: teal;
+    width: 100%;
+    box-shadow: 2px 2px 15px gray;
+    padding: 15px;
+    text-shadow: 1px 1px black;
+  }
+  &:hover {
+     .diena, .temp, .icona {box-shadow: 5px 5px 15px black;}
+   }
+}

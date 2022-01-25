@@ -1,0 +1,15 @@
+.paieska {
+  margin: 20px 0;
+  background: teal;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 2px 2px 15px gray;
+  h3 {
+    color: white;
+    text-shadow: 1px 1px black;
+  }
+  button{
+    background: #d3efef;
+  }
+}
